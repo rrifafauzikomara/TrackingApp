@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="UselessParent"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/slider"
+        android:id="@+id/ly1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/greybackground"
+        tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visi :"/>
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/visi"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ly1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/greybackground"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:text="Misi :"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:text="@string/misi1"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:text="@string/misi2"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:text="@string/misi3"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:text="@string/misi4"
+            android:layout_marginRight="15sp"/>
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:text="@string/misi5"
+            android:layout_marginRight="15sp"/>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <include
+            layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/nav_header_main"
+            app:menu="@menu/activity_main_drawer" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>
+

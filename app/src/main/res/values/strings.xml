@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Primajasa</string>
+    <string name="app_name1">Profile</string>
+    <string name="app_name2">Scanner</string>
+    <string name="app_name3">Lihat Lokasi</string>
+    <string name="app_name4">Detail Location</string>
+    <string name="visi">Menjadi perusahaan Transportasi Darat yang Terkemuka dan Terpercaya di Indonesia yang dilandasi oleh nilai-nilai Religius</string>
+    <string name="misi1">1. Pelayanan masyarakat</string>
+    <string name="misi2">2. Mematuhi seluruh peraturan PerUndang-undangan yang berlaku</string>
+    <string name="misi3">3. Selalu memperhatikan dan memelihara lingkungan hidup</string>
+    <string name="misi4">4. Serta mengikuti perkembangan ilmu dan tekhnologi</string>
+    <string name="misi5">5. Dan tuntutan pelayanan yang semakin meningkat</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="facebook_app_id">328901220927118</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

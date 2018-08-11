@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    tools:context="com.example.rrifafauzikomara.proyek2.Profile.Profile">
+
+    <RelativeLayout
+        android:id="@+id/ly2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/user"
+            app:civ_border_width="2dp"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="#FF000000"/>
+
+        <ImageButton
+            android:id="@+id/img"
+            android:layout_below="@+id/profile_image1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_alignEnd="@+id/profile_image1"
+            android:layout_alignRight="@+id/profile_image1"
+            android:background="@drawable/ic_menu_camera" />
+
+        <EditText
+            android:id="@+id/txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_below="@+id/img"
+            android:visibility="gone"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nama"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                android:layout_below="@id/img"
+                android:layout_height="54dp">
+
+                <EditText
+                    android:id="@+id/txt_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Lengkap"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:maxLength="20" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_below="@id/nama"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="54dp">
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:maxLength="20" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/nohp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_below="@id/email"
+            android:layout_height="54dp">
+
+            <EditText
+                android:id="@+id/txt_nohp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No Hp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:maxLength="20" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_below="@id/nohp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="54dp">
+
+            <EditText
+                android:id="@+id/txt_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                android:inputType="text"
+                android:singleLine="true"
+                android:maxLength="20" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_below="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:text="Simpan Perubahan"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

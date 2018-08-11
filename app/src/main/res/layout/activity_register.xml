@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/greybackground"
+            tools:ignore="UselessParent">
+
+            <ImageView android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/user"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <EditText
+                android:id="@+id/txt_nama"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Nama Lengkap"
+                android:background="#f3f3f3"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:maxLength="20"
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Email"
+                android:maxLength="50"
+                android:background="#f3f3f3"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/txt_nohp"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="No Hp"
+                android:maxLength="12"
+                android:background="#f3f3f3"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/txt_alamat"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Alamat"
+                android:maxLength="50"
+                android:background="#f3f3f3"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginTop="20dp"
+                android:inputType="text"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/txt_username"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Username"
+                android:background="#f3f3f3"
+                android:paddingStart="5dp"
+                android:maxLength="20"
+                android:paddingEnd="5dp"
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/txt_password"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:maxLength="20"
+                android:background="#f3f3f3"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/txt_confirm_password"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Konfirmasi Password"
+                android:background="#f3f3f3"
+                android:maxLength="20"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:singleLine="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:text="Register"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                    android:background="#13b586"/>
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_alignParentStart="true"
+                    android:text="Cancel"
+                    android:textColor="#fff"
+                    android:background="#13b586"
+                    android:onClick="cancel"
+                    android:textSize="13sp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
