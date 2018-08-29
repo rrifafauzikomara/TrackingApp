@@ -33,7 +33,7 @@ public class Register extends AppCompatActivity {
     Intent intent;
     int success;
     ConnectivityManager conMgr;
-    private String url = Server.URLL + "register.php";
+    private String url = Server.URLH + "register.php";
     private static final String TAG = Register.class.getSimpleName();
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";

@@ -31,14 +31,14 @@ public class UpdateLokasi extends AppCompatActivity {
     EditText txt_id, txt_nama, txt_lng, txt_lat, txt_idk, txt_tgl, txt_time;
 
     //untuk delete lokasi
-    private String urld = Server.URLL + "delete_lokasi.php";
+    private String urld = Server.URLH + "delete_lokasi.php";
     ProgressDialog pdd;
 
     //untuk update lokasi
     ProgressDialog pdu;
     int success;
     ConnectivityManager conMgr;
-    private String urlu = Server.URLL + "update_lokasi.php";
+    private String urlu = Server.URLH + "update_lokasi.php";
     private static final String TAG = UpdateLokasi.class.getSimpleName();
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";

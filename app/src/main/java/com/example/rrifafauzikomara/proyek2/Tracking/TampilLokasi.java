@@ -72,7 +72,7 @@ public class TampilLokasi extends FragmentActivity implements OnMapReadyCallback
     public static final String TITLE = "nama";
     public static final String LAT = "lat";
     public static final String LNG = "lng";
-    private String url = Server.URLL + "lokasi.php";
+    private String url = Server.URLH + "lokasi.php";
 
     //tambah lokasi
     Double lng, lat;
@@ -80,7 +80,7 @@ public class TampilLokasi extends FragmentActivity implements OnMapReadyCallback
     EditText txt_id, txt_idk;
     int success;
     ConnectivityManager conMgr;
-    private String urlr = Server.URLL + "tambah_lokasi.php";
+    private String urlr = Server.URLH + "tambah_lokasi.php";
     private static final String TAG = TampilLokasi.class.getSimpleName();
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";

@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     CircleImageView user_picture;
     String idx;
 
-    private String url = Server.URLL + "get_profile.php?id=";
+    private String url = Server.URLH + "get_profile.php?id=";
 
     //untuk login session
     SharedPreferences sharedpreferences;

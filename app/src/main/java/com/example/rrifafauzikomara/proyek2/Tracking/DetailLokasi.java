@@ -34,7 +34,7 @@ public class DetailLokasi extends AppCompatActivity {
     RecyclerView.LayoutManager mManager;
     List<ModelData> mItems;
     ProgressDialog pd;
-    private String urld = Server.URLL + "detail_lokasi.php";
+    private String urld = Server.URLH + "detail_lokasi.php";
     public static final String TAG_ID       = "id_lokasi";
     public static final String TAG_NAMA1     = "nama";
     public static final String TAG_LNG      = "lng";

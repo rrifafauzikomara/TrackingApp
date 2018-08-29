@@ -34,7 +34,7 @@ public class Login extends AppCompatActivity {
     EditText txt_username, txt_password;
     int success;
     ConnectivityManager conMgr;
-    private String url = Server.URLL + "login.php";
+    private String url = Server.URLH + "login.php";
     private static final String TAG = Login.class.getSimpleName();
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";

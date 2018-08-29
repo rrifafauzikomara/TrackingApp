@@ -57,14 +57,14 @@ public class Profile extends AppCompatActivity {
     private String TAG_EMAIL = "email";
     private String TAG_FOTO = "foto";
 
-    private String url = Server.URLL + "get_profile.php?id=";
+    private String url = Server.URLH + "get_profile.php?id=";
 
     //untuk upload foto serta edit profile
     int success;
     int PICK_IMAGE_REQUEST = 1;
     int bitmap_size = 60; // range 1 - 100
     private static final String TAG = MainActivity.class.getSimpleName();
-    private String UPLOAD_URL = Server.URLL + "upload.php";
+    private String UPLOAD_URL = Server.URLH + "upload.php";
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";
     private String TAG_ID = "id";
