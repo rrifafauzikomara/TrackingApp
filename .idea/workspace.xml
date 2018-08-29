@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d8b59e-cdf5-4402-8a6b-d55b4a0e2870" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Login.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Login.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Profile/Profile.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Profile/Profile.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Register.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Register.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Server/Server.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Server/Server.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/DetailLokasi.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/DetailLokasi.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/TampilLokasi.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/TampilLokasi.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/UpdateLokasi.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/UpdateLokasi.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,8 +96,8 @@
       <file leaf-file-name="UpdateLokasi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/UpdateLokasi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="291">
+              <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -2437,10 +2421,19 @@
       <option name="presentableId" value="Default" />
       <updated>1535524801927</updated>
     </task>
+    <task id="LOCAL-00001" summary="change server to hosting">
+      <created>1535525516603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535525516604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-4" width="1321" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2457,7 +2450,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2475,6 +2468,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change server to hosting" />
+    <option name="LAST_COMMIT_MESSAGE" value="change server to hosting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2539,8 +2536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/rrifafauzikomara/proyek2/Tracking/UpdateLokasi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="291">
+          <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
           <folding />
         </state>
       </provider>
