@@ -27,7 +27,7 @@ Link Source Code API dan Website : <a href="https://github.com/rrifafauzikomara/
 3. Kemudian untuk menu **Profile** digunakan untuk pegawai yang ingin eksis dan mengupload foto mereka
 4. Menu **Tracking** digunakan untuk menandai Bus yang dijelajahi telah berhenti di tempat peristirahatan tersebut sehingga dapat di cek oleh orang tua yang khawatir melalu link ***Website*** diatas dimenu ***Lokasi*** dengan menginputkan Id Kendaraan yang sesuai dengan waktu tracking pegawai.
 
-## Author
+### Author
 
 * **R Rifa Fauzi Komara**
 
