@@ -13,7 +13,7 @@ Aplikasi ini berpasangan dengan <a href="https://github.com/rrifafauzikomara/Boo
 </pre>
 
 ### Demo Aplikasi Android
-1.  Donwload dan Install Aplikasinya di <a href="https://drive.google.com/open?id=18y97hdUn3PcDtWGa0ia4rhgtlrdo24Jd">sini</a>
+1.  Anda dapat menginstall pplikasinya dengan meng<a href="https://drive.google.com/open?id=1yGfoyXtPhROD7v0iRpJ3A-Dp3H1wLPi5">klik ini</a>
 2.  Untuk demo login aplikasi android : user = rifa dan pass : fauzi
 3.  Jika melakukan register, harap verifikasi akun tersebut melaui website <a href="http://r-fauzi.xyz">saya</a> dibagian admin, jika sudah, maka akun tersebut dapat login di aplikasi android.
 <br>Note : Pilih yang "debug" untuk di install, karna yang release untuk di upload di PlayStore
