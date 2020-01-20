@@ -45,7 +45,7 @@
             android:layout_below="@+id/img"
             android:visibility="gone"/>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/nama"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
@@ -62,9 +62,9 @@
                     android:singleLine="true"
                     android:maxLength="20" />
 
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_below="@id/nama"
@@ -81,9 +81,9 @@
                 android:singleLine="true"
                 android:maxLength="20" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/nohp"
             android:layout_width="match_parent"
             android:layout_marginStart="15dp"
@@ -100,9 +100,9 @@
                 android:singleLine="true"
                 android:maxLength="20" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/alamat"
             android:layout_width="match_parent"
             android:layout_below="@id/nohp"
@@ -119,7 +119,7 @@
                 android:singleLine="true"
                 android:maxLength="20" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <Button

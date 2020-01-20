@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:usesCleartextTraffic="true"
         android:name=".Server.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -68,6 +69,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register" />
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
